@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="headerandpicture">
+
+        <header id="header">Totally Trivial Trivia</header>
+
+        <img id="img" src="https://fanvictor.com/wp-content/uploads/2016/09/TriviaTime.jpg">
+
+    </div>
+
+    <div id="time">
+
+        <button id="start" type="button" class="btn btn-primary">Start</button>
+        <h1 id="timer"></h1>
+
+
+    </div>
+
+
+
+
+    <form id="questions" name="questions">
+
+        <p>What is the capital of Korea?</p>
+
+        <input type="radio" name="q1" value="Soul" id="q1a"><label for="q1a">Soul</label><br/>
+        <input type="radio" name="q1" value="Beijing" id="q1b"><label for="q1b">Beijing</label><br/>
+        <input type="radio" name="q1" value="Chicago" id="q1c"><label for="q1c">Chicago</label><br/>
+
+
+
+        <p>>What is the most popuar traditional food in Korea?</p>
+
+        <input type="radio" name="q2" value="Sushi" id="q2a"><label for="q1a">Sushi</label><br/>
+        <input type="radio" name="q2" value="Kimchi" id="q2b"><label for="q1b">Kimchi</label><br/>
+        <input type="radio" name="q2" value="Pizza" id="q2c"><label for="q1c">Pizza</label><br/>
+
+
+
+
+        <p>What is the most profitble industry in Korea?</p>
+
+        <input type="radio" name="q3" value="Tourism" id="q3a"><label for="q1c">Tourism</label><br/>
+        <input type="radio" name="q3" value="Auto manufacture" id="q3b"><label for="q1b">Auto manufature</label><br/>
+        <input type="radio" name="q3" value="Electronic devices" id="q3c"><label for="q1d">Eletronic devices</label><br/>
+
+    </form>
+
+
+
+    <div id="submit">
+
+        <button id="submit" type="button" class="btn btn-primary">Submit</button>
+
+    </div>
+    <div id="aftersubmit">
+        <p id="correct"></p>
+    </div>
+
+
+
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
+    <script src="assets/javascript/app.js"></script>
+
+
+
+
+</body>
+
+</html>
